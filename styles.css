@@ -1,0 +1,617 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+background-image: url(Images/bg4.webp); 
+background-size: cover;
+background-position: center;
+position: relative;
+width: 100%;
+min-height: 82vh;
+
+} 
+
+.content {
+    width: 90%;
+    color: white ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 35px;
+}
+
+.content h1 {
+    font-size: 55px;
+    font-family: 'Acme', sans-serif;
+}
+
+.content img {
+    width: 22%;
+    height: 32vh;
+    margin-bottom: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+
+.content p {
+    font-size: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.nav_links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav_links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav_links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav_links ul li:hover{
+    text-decoration: underline;
+}
+
+.pages {
+    margin-top: 90px;
+    text-align: center;
+    flex: 1;
+    word-spacing: 350px;
+}
+
+.pages ul li{
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    display: inline-block;
+}
+
+.pages ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pages ul li a:hover{
+    color: #fff;
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+.crystal {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.row h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row p{
+font-size: 14px;
+font-weight: 300;
+line-height: 22px;
+padding: 10px;
+color: #777;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+.candle {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.birthstone {
+    width: 80%;
+    margin: auto;
+    padding: 100px;
+    text-align: center;
+}
+
+.row {
+display: flex;
+justify-content: space-between;
+}
+
+@media(max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }
+}
+
+.row img {
+    width: 110%;
+    box-shadow: 10px 10px 10px #7F669D;
+}
+
+
+.footer {
+background-color: #7F669D;
+height: auto;
+width: 100%;
+padding-top: 40px;
+color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.83rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content P{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+
+.socials a i{
+    font-size: 1.1rem ;
+}
+
+.socials :hover i{
+    text-decoration: underline;
+    color: black;
+}
+
+.footer-bottom {
+    background-color: #7F669D;
+    width: 100vh;
+    padding: 20px 0;
+    padding-left: 448px;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom h4{
+text-transform: uppercase;
+opacity: .4;
+font-weight: 200;
+}
+
+
+
+
+
+.Container {
+    width:  90%;
+    height: 5vh;
+    padding: 5%;
+    background-color: #7F669D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Search_bar {
+    width: 100%;
+    max-width: 700px;
+    height: 5vh;
+    background: rgba(225, 225, 225, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 60px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.Search_bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 20px;
+    font-size: 20px;
+    color: #cac7ff;
+}
+
+::placeholder {
+    color: #cac7ff;
+}
+
+.Search_bar button i{
+width: 15px;
+}
+
+.Search_bar button {
+    border: 0;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: #cac7ff;
+}
+
+.Search_bar button:hover {
+    background: white ;
+}
+
+.logo1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7F669D;
+    flex-direction: column;
+    height: 470px;
+}
+
+.logo1 img{
+    width: 20%;
+    height: 40vh;
+}
+
+.logo1 h3 {
+    background-color: #a17b7a;
+    color: white;
+    font-size: 20px;
+    border-radius: 55px;
+    padding: 5px;
+    margin-bottom: 10px;
+    word-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo1 h3:hover {
+    background-color: #916f6e;
+}
+
+
+.bs{
+   text-align: center;
+   font-family: 'Source Sans Pro', sans-serif;
+   padding-top: 50px;
+}
+
+.CB {
+    flex: 1;
+    margin-top: 90px;
+    word-spacing: 10px;
+}
+
+.CB ul li{
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    display: inline-block;
+}
+
+.CB ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.CB ul li a:hover{
+    color: #fff;
+    font-size: 27px;
+    text-decoration: underline;
+}
+
+
+.products {
+    width: 100%;
+    height: 70vh;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.image-container {
+    position: relative;
+    width: 450px;
+    height: 298px;
+    overflow: hidden;
+    margin: 20px;
+    margin-top: 60px;
+}
+
+.products img {
+position: absolute;
+width: 100%;
+}
+
+span {
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    padding: 2rem;
+    z-index: 999;
+    background: linear-gradient(#0000, #121212 );
+    transform: translateY(250px);
+    transition: transform 0.8s ease-in-out;
+}
+
+span h1 {
+    color: white;
+}
+
+span p{
+    color: white;
+}
+
+.image-container::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.image-container:hover > span {
+transform: translateY(0);
+}
+
+
+.header1 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+.options {
+    font-family: 'Noto Serif', serif;
+    margin-top: 50px;
+    gap: 40px;
+    margin: 30px;
+    text-align: center;
+}
+
+.options h1 {
+padding-top: 180px;
+font-size: 50px;
+color: white;
+}
+
+.Jewelry-Crystal {
+    background: linear-gradient( rgba(4,9,30,0.7), rgba(4,9,30,0.7)),  url(Images/Jewelry.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+
+.Rare-Crystals {
+    background-image: linear-gradient( rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(Images/rare.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+
+.Decor-crystals {
+    background: linear-gradient( rgba(4,9,30,0.7), rgba(4,9,30,0.7)),  url(Images/decor.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 60vh;
+    display: inline-block;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+
+.options button {
+margin-top: 10px;
+padding: 10px;
+width: 80px;
+border-radius: 15px;
+background-color: #a17b7a;
+font-family: 'Josefin Sans', sans-serif;
+}
+
+.options button:hover {
+    background-color: #916f6e;
+}
+
+
+
+
+
+
+
+.Candlepage {
+    padding-bottom: 50px;
+}
+
+.img-1 {
+    margin-top: 50px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+}
+
+.Gem {
+    font-family: 'Rubik', sans-serif;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.Candlepage button {
+    width: 100px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: #7F669D;
+    margin-top: 300px;
+    margin-right: 150px;
+}
+
+
+
+.img-2 {
+    margin-top: 50px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+}
+
+
+.img-3 {
+    margin-top: 50px;
+    padding-left: 40px;
+    text-align: left;
+    font-size: 20px;
+    display: flex;
+}
+
+.Candlepage img {
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #63517a;
+}
+
+
+
+
+
+.maincontainer
+{
+    width: 302px;
+    height: 299px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.maincontainer img {
+   border-radius: 10px;
+   width: 290px;
+   height: 260px;
+}
+
+.back h2
+{
+    position: absolute;
+}
+
+.back p
+{
+    position: absolute;
+    top: 50px;
+    font-size: 15px;
+}
+
+.front h2
+{
+    position: absolute;
+    padding: 10px;
+    top: 250px;
+    color: #000;
+}
+
+
+
+/* style the maincontainer class with all child div's of class .front */
+.maincontainer > .front
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(0deg);
+    
+    width: 302px;
+    height: 290px;
+    
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+}
+
+/* style the maincontainer class with all child div's of class .back */
+.maincontainer > .back
+{
+    position: absolute;
+    transform: perspective(600px) rotateY(180deg);
+    background: #262626;
+    color: #fff;
+    width: 302px;
+    height: 290px;
+    border-radius: 10px;
+    padding: 5px;
+    backface-visibility: hidden; /* cant see the backside elements as theyre turning around */
+    transition: transform .5s linear 0s;
+}
+
+.maincontainer:hover > .front
+{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.maincontainer:hover > .back
+{
+    transform: perspective(600px) rotateY(0deg);
+}
+
